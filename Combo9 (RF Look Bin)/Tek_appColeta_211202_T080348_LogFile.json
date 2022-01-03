@@ -1,0 +1,91 @@
+[
+{
+  "time": "02/12/2021 08:03:49.731",
+  "identifier": "Equipament",
+  "message": {
+    "Name": "TEKTRONIX,SA2500PC,B000000,7.050",
+    "ConnectType": "TCPIP Socket",
+    "IP": "127.0.0.1",
+    "Port": 34835,
+    "Timeout": 10,
+    "InputBuffer": "10 MB",
+    "ResetCommand": "Off",
+    "SyncMode": "Continuous Sweep"
+  }
+},
+{
+  "time": "02/12/2021 08:03:50.682",
+  "identifier": "TimeIssue",
+  "message": {
+    "DesiredObservationTime": 600,
+    "DesiredRevisitTime": [
+      0.1,
+      1,
+      3
+    ],
+    "GlobalRevisitTime": 0.1,
+    "RevisitFactors": [
+      1,
+      10,
+      30
+    ],
+    "EstimatedLoops": 6000
+  }
+},
+{
+  "time": "02/12/2021 08:03:50.739",
+  "identifier": "gpsInfo",
+  "message": {
+    "Type": 1,
+    "Status": 1,
+    "Latitude": 45.4992027777778,
+    "Longitude": -122.823165833333
+  }
+},
+{
+  "time": "02/12/2021 08:03:50.765",
+  "identifier": "ThreadID1",
+  "message": {
+    "File": "C:/Users/eric/Documents/appColeta/Temp/appColeta_211202_T080348_ThreadID1_1.bin",
+    "StartUp": "*CLS;:DISPlay:GENeral:MEASview:SELect SPEC;:FORMat:DATA BIN;:SYSTem:GPS INT",
+    "MainSet": "TRACe1:SPECtrum:FUNCtion NORM;:TRACe1:SPECtrum:AVERage:COUNt 1;:TRACe1:SPECtrum:DETection AVER;:UNIT:POWer DBM;:SPECtrum:FREQuency:START 76000000;:SPECtrum:FREQuency:STOP 108000000;:SPECtrum:BANDwidth:RESolution 50000;:INPut:GAIN:STATe 0;:INPut:ATTenuation 0",
+    "MetaDataQuery": "TRACe1:SPECtrum:FUNCtion?;:TRACe1:SPECtrum:AVERage:COUNt?;:TRACe1:SPECtrum:DETection?;:UNIT:POWer?;:SPECtrum:FREQuency:STARt?;:SPECtrum:FREQuency:STOP?;:SPECtrum:BANDwidth:RESolution:AUTO?;:SPECtrum:BANDwidth:RESolution?;:INPut:GAIN:STATe?;:INPut:ATTenuation?",
+    "TraceDataQuery": "INIT;*WAI;:FETCH:SPECTRUM:TRACE1?",
+    "MetaDataValues": "[{"Trace":"NORM","AverageMode":0,"AverageCount":1,"Detector":"AVER","LevelUnit":"DBM","FreqStart":7.6E+7,"FreqStop":1.08E+8,"DataPoints":501,"StepWidth":64000,"ResolutionMode":0,"ResolutionValue":50000,"Selectivity":"","SensitivityMode":"0","Preamp":0,"AttenuationMode":1,"AttenuationValue":0,"SampleTimeMode":1,"SampleTimeValue":0}]"
+  }
+},
+{
+  "time": "02/12/2021 08:03:50.826",
+  "identifier": "ThreadID2",
+  "message": {
+    "File": "C:/Users/eric/Documents/appColeta/Temp/appColeta_211202_T080348_ThreadID2_1.bin",
+    "StartUp": "*CLS;:DISPlay:GENeral:MEASview:SELect SPEC;:FORMat:DATA BIN;:SYSTem:GPS INT",
+    "MainSet": "TRACe1:SPECtrum:FUNCtion AVER;:TRACe1:SPECtrum:AVERage:COUNt 3;:TRACe1:SPECtrum:DETection AVER;:UNIT:POWer DBM;:SPECtrum:FREQuency:START 108000000;:SPECtrum:FREQuency:STOP 137000000;:SPECtrum:BANDwidth:RESolution 20000;:INPut:GAIN:STATe 1;:INPut:ATTenuation 0",
+    "MetaDataQuery": "TRACe1:SPECtrum:FUNCtion?;:TRACe1:SPECtrum:AVERage:COUNt?;:TRACe1:SPECtrum:DETection?;:UNIT:POWer?;:SPECtrum:FREQuency:STARt?;:SPECtrum:FREQuency:STOP?;:SPECtrum:BANDwidth:RESolution:AUTO?;:SPECtrum:BANDwidth:RESolution?;:INPut:GAIN:STATe?;:INPut:ATTenuation?",
+    "TraceDataQuery": "INIT;*WAI;:FETCH:SPECTRUM:TRACE1?",
+    "MetaDataValues": "[{"Trace":"AVER","AverageMode":0,"AverageCount":3,"Detector":"AVER","LevelUnit":"DBM","FreqStart":1.08E+8,"FreqStop":1.37E+8,"DataPoints":501,"StepWidth":58000,"ResolutionMode":0,"ResolutionValue":20000,"Selectivity":"","SensitivityMode":"0","Preamp":1,"AttenuationMode":1,"AttenuationValue":0,"SampleTimeMode":1,"SampleTimeValue":0}]"
+  }
+},
+{
+  "time": "02/12/2021 08:03:50.865",
+  "identifier": "ThreadID3",
+  "message": {
+    "File": "C:/Users/eric/Documents/appColeta/Temp/appColeta_211202_T080348_ThreadID3_1.bin",
+    "StartUp": "*CLS;:DISPlay:GENeral:MEASview:SELect SPEC;:FORMat:DATA BIN;:SYSTem:GPS INT",
+    "MainSet": "TRACe1:SPECtrum:FUNCtion MAXH;:TRACe1:SPECtrum:AVERage:COUNt 10;:TRACe1:SPECtrum:DETection POS;:UNIT:POWer DBM;:SPECtrum:FREQuency:START 450000000;:SPECtrum:FREQuency:STOP 470000000;:SPECtrum:BANDwidth:RESolution 100000;:INPut:GAIN:STATe 1;:INPut:ATTenuation 0",
+    "MetaDataQuery": "TRACe1:SPECtrum:FUNCtion?;:TRACe1:SPECtrum:AVERage:COUNt?;:TRACe1:SPECtrum:DETection?;:UNIT:POWer?;:SPECtrum:FREQuency:STARt?;:SPECtrum:FREQuency:STOP?;:SPECtrum:BANDwidth:RESolution:AUTO?;:SPECtrum:BANDwidth:RESolution?;:INPut:GAIN:STATe?;:INPut:ATTenuation?",
+    "TraceDataQuery": "INIT;*WAI;:FETCH:SPECTRUM:TRACE1?",
+    "MetaDataValues": "[{"Trace":"MAXH","AverageMode":0,"AverageCount":10,"Detector":"POS","LevelUnit":"DBM","FreqStart":4.5E+8,"FreqStop":4.7E+8,"DataPoints":501,"StepWidth":40000,"ResolutionMode":0,"ResolutionValue":100000,"Selectivity":"","SensitivityMode":"1","Preamp":1,"AttenuationMode":0,"AttenuationValue":0,"SampleTimeMode":1,"SampleTimeValue":0}]"
+  }
+},
+{
+  "time": "02/12/2021 08:03:50.887",
+  "identifier": "WritedSamples",
+  "message": "0 of 6000"
+},
+{
+  "time": "02/12/2021 08:04:48.874",
+  "identifier": "WritedSamples",
+  "message": "138 of 6000"
+}
+]

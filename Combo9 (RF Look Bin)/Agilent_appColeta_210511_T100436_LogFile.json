@@ -1,0 +1,88 @@
+[
+{
+  "time": "11/05/2021 10:04:37.620",
+  "identifier": "Equipament",
+  "message": {
+    "Name": "Keysight Technologies,N9344C,CN06041424,A.06.27",
+    "IP": "10.71.10.4",
+    "Port": 5025,
+    "Timeout": 5,
+    "InputBuffer": "10 MB"
+  }
+},
+{
+  "time": "11/05/2021 10:04:37.624",
+  "identifier": "TimeIssue",
+  "message": {
+    "DesiredObservationTime": 300,
+    "DesiredRevisitTime": [
+      0.2,
+      1
+    ],
+   "GlobalRevisitTime": 0.2,
+    "RevisitFactors": [
+      1,
+      5
+    ],
+    "EstimatedSamples": 1500
+  }
+},
+{
+  "time": "11/05/2021 10:04:37.970",
+  "identifier": "gpsInfo",
+  "message": {
+    "Type": 1,
+    "Status": 0,
+    "Latitude": [],
+    "Longitude": []
+  }
+},
+{
+  "time": "11/05/2021 10:04:37.974",
+  "identifier": "ThreadID1",
+  "message": {
+    "File": "C:/Users/Administrador/OneDrive - ANATEL/appColeta/Temp/appColeta_210511_T100436_ThreadID1.bin",
+    "StartUp": "*CLS;*RST;:FORMat:DATA REAL;:AVERage:TYPE VOLT;:INITiate:CONTinuous OFF;:SYSTem:CONFigure:GPS 1",
+    "MainSet": "TRACe1:MODE WRIT;:AVERage:TRACe1:STATe 0;:AVERage:TRACe1:COUNt 1;:DETector:TRACe1:FUNCtion AVER;:UNIT:POWer DBUV;:FREQuency:STARt 88000000;:FREQuency:STOP 108000000;:BANDwidth:RESolution 30000;:POWer:RF:HSENsitive 1;:POWer:RF:ATTenuation 0;:POWer:RF:ATTenuation:AUTO 1",
+    "MetaData": "TRACe1:MODE?;:AVERage:TRACe1:STATe?;:AVERage:TRACe1:COUNt?;:DETector:TRACe1:FUNCtion?;:UNIT:POWer?;:FREQuency:STARt?;:FREQuency:STOP?;:BANDwidth:RESolution?;:POWer:RF:HSENsitive?;:POWer:RF:ATTenuation:AUTO?;:POWer:RF:ATTenuation?;:SWEep:TIME?",
+    "TraceData": "*WAI;:TRACe:DATA? TRACe1"
+  }
+},
+{
+  "time": "11/05/2021 10:04:38.016",
+  "identifier": "ThreadID2",
+  "message": {
+    "File": "C:/Users/Administrador/OneDrive - ANATEL/appColeta/Temp/appColeta_210511_T100436_ThreadID2.bin",
+    "StartUp": "*CLS;*RST;:FORMat:DATA REAL;:AVERage:TYPE VOLT;:INITiate:CONTinuous OFF;:SYSTem:CONFigure:GPS 1",
+    "MainSet": "TRACe1:MODE WRIT;:AVERage:TRACe1:STATe 0;:AVERage:TRACe1:COUNt 1;:DETector:TRACe1:FUNCtion POS;:UNIT:POWer DBM;:FREQuency:STARt 470000000;:FREQuency:STOP 698000000;:BANDwidth:RESolution 100000;:POWer:RF:HSENsitive 1;:POWer:RF:ATTenuation 5;:POWer:RF:ATTenuation:AUTO 0",
+    "MetaData": "TRACe1:MODE?;:AVERage:TRACe1:STATe?;:AVERage:TRACe1:COUNt?;:DETector:TRACe1:FUNCtion?;:UNIT:POWer?;:FREQuency:STARt?;:FREQuency:STOP?;:BANDwidth:RESolution?;:POWer:RF:HSENsitive?;:POWer:RF:ATTenuation:AUTO?;:POWer:RF:ATTenuation?;:SWEep:TIME?",
+    "TraceData": "*WAI;:TRACe:DATA? TRACe1"
+  }
+},
+{
+  "time": "11/05/2021 10:04:38.041",
+  "identifier": "WritedSamples",
+  "message": "0 of 1500"
+},
+{
+  "time": "11/05/2021 10:20:30.613",
+  "identifier": "Equipament",
+  "message": "Unsuccessful read: A timeout occurred before the Terminator was reached."
+},
+{
+  "time": "11/05/2021 10:20:54.276",
+  "identifier": "Equipament",
+  "message": {
+    "Name": "Keysight Technologies,N9344C,CN06041424,A.06.27",
+    "IP": "10.71.10.4",
+    "Port": 5025,
+    "Timeout": 5,
+    "InputBuffer": "10 MB"
+  }
+},
+{
+  "time": "11/05/2021 10:44:11.312",
+  "identifier": "WritedSamples",
+  "message": "1500 of 1500"
+}
+]

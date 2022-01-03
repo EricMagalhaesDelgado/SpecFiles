@@ -1,0 +1,88 @@
+[
+{
+  "time": "11/05/2021 09:37:21.956",
+  "identifier": "Equipament",
+  "message": {
+    "Name": "ROHDE&SCHWARZ,EB500,101.512/002,V04.90-4072.8710.00",
+    "IP": "192.168.10.32",
+    "Port": 5555,
+    "Timeout": 5,
+    "InputBuffer": "10 MB"
+  }
+},
+{
+  "time": "11/05/2021 09:37:21.960",
+  "identifier": "TimeIssue",
+  "message": {
+    "DesiredObservationTime": 300,
+    "DesiredRevisitTime": [
+      0.2,
+      1
+    ],
+    "GlobalRevisitTime": 0.2,
+    "RevisitFactors": [
+      1,
+      5
+    ],
+    "EstimatedSamples": 1500
+  }
+},
+{
+  "time": "11/05/2021 09:37:22.258",
+  "identifier": "gpsInfo",
+  "message": {
+    "Type": 0,
+    "Status": -1,
+    "Latitude": -12.860603,
+    "Longitude": -38.308409
+  }
+},
+{
+  "time": "11/05/2021 09:37:24.533",
+  "identifier": "ThreadID1",
+  "message": {
+    "File": "C:/Users/Administrador/OneDrive - ANATEL/appColeta/Temp/appColeta_210511_T093719_ThreadID1.bin",
+    "StartUp": "*CLS;*RST;:MEASure:APPL RX;:FREQ:MODE PSCAN;:FUNCtion:CONCurrent OFF;:MEAS:MODE PER;:SYSTem:GPS:DATA:AUTO 1;:INITiate:IMMediate",
+    "MainSet": "CALCulate:IFPan:AVERage:TYPE OFF;:DETector:FUNCtion RMS;:FREQuency:PSCan:START 88000000;:FREQuency:PSCan:STOP 108000000;:PSCan:STEP 12500;:CALCulate:IFPan:SELectivity Narrow;:INPut:ATTenuation:AUTO 1",
+    "MetaData": "CALCulate:IFPan:AVERage:TYPE?;:DETector:FUNCtion?;:FREQuency:PSCan:START?;:FREQuency:PSCan:STOP?;:PSCan:STEP?;:CALCulate:IFPan:BANDwidth?;:CALCulate:IFPan:SELectivity?;:INPut:ATTenuation:AUTO?;:INPut:ATTenuation?",
+    "TraceData": ""
+  }
+},
+{
+  "time": "11/05/2021 09:37:24.571",
+  "identifier": "ThreadID2",
+  "message": {
+    "File": "C:/Users/Administrador/OneDrive - ANATEL/appColeta/Temp/appColeta_210511_T093719_ThreadID2.bin",
+    "StartUp": "*CLS;*RST;:MEASure:APPL RX;:FREQ:MODE PSCAN;:FUNCtion:CONCurrent OFF;:MEAS:MODE PER;:SYSTem:GPS:DATA:AUTO 1;:INITiate:IMMediate",
+    "MainSet": "CALCulate:IFPan:AVERage:TYPE OFF;:DETector:FUNCtion POS;:FREQuency:PSCan:START 470000000;:FREQuency:PSCan:STOP 698000000;:PSCan:STEP 50000;:CALCulate:IFPan:SELectivity Sharp;:INPut:ATTenuation:AUTO 0",
+    "MetaData": "CALCulate:IFPan:AVERage:TYPE?;:DETector:FUNCtion?;:FREQuency:PSCan:START?;:FREQuency:PSCan:STOP?;:PSCan:STEP?;:CALCulate:IFPan:BANDwidth?;:CALCulate:IFPan:SELectivity?;:INPut:ATTenuation:AUTO?;:INPut:ATTenuation?",
+    "TraceData": ""
+  }
+},
+{
+  "time": "11/05/2021 09:37:24.600",
+  "identifier": "WritedSamples",
+  "message": "0 of 1500"
+},
+{
+  "time": "11/05/2021 09:38:54.331",
+  "identifier": "Equipament",
+  "message": "Unsuccessful read: A timeout occurred before the Terminator was reached."
+},
+{
+  "time": "11/05/2021 09:39:19.957",
+  "identifier": "Equipament",
+  "message": {
+    "Name": "ROHDE&SCHWARZ,EB500,101.512/002,V04.90-4072.8710.00",
+    "IP": "192.168.10.32",
+    "Port": 5555,
+    "Timeout": 5,
+    "InputBuffer": "10 MB"
+  }
+},
+{
+  "time": "11/05/2021 09:44:04.338",
+  "identifier": "WritedSamples",
+  "message": "1500 of 1500"
+}
+]

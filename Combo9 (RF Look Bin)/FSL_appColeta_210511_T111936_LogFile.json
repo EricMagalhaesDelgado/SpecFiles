@@ -1,0 +1,72 @@
+[
+{
+  "time": "11/05/2021 11:19:38.270",
+  "identifier": "Equipament",
+  "message": {
+    "Name": "Rohde&Schwarz,FSL-6,100405/006,2.30",
+    "IP": "10.71.10.2",
+    "Port": 5025,
+    "Timeout": 5,
+    "InputBuffer": "10 MB"
+  }
+},
+{
+  "time": "11/05/2021 11:19:38.313",
+  "identifier": "TimeIssue",
+  "message": {
+    "DesiredObservationTime": 300,
+    "DesiredRevisitTime": [
+      0.2,
+      1
+    ],
+    "GlobalRevisitTime": 0.2,
+    "RevisitFactors": [
+      1,
+      5
+    ],
+    "EstimatedSamples": 1500
+  }
+},
+{
+  "time": "11/05/2021 11:19:39.210",
+  "identifier": "gpsInfo",
+  "message": {
+    "Type": 0,
+    "Status": -1,
+    "Latitude": -1,
+    "Longitude": -1
+  }
+},
+{
+  "time": "11/05/2021 11:19:39.224",
+  "identifier": "ThreadID1",
+  "message": {
+    "File": "C:/Users/Administrador/OneDrive - ANATEL/appColeta/Temp/appColeta_210511_T111936_ThreadID1.bin",
+    "StartUp": "*CLS;*RST;:FORMat:DATA REAL,32;:AVERage:TYPE LINear;:INITiate:CONTinuous OFF",
+    "MainSet": "DISPlay:WINDow:TRACe1:MODE WRIT;:SWEep:COUNt 1;:DETector1:FUNCtion RMS;:UNIT:POWer DBUV;:FREQuency:STARt 88000000;:FREQuency:STOP 108000000;:SWEep:POINTS 1601;:BANDwidth:RESolution 30000;:INPut:GAIN:STATe 1;:INPut:ATTenuation 0;:INPUT:ATTenuation:AUTO 0",
+    "MetaData": "DISPlay:WINDow:TRACe1:MODE?;:SWEep:COUNt?;:DETector1:FUNCtion?;:UNIT:POWer?;:FREQuency:STARt?;:FREQuency:STOP?;:SWEep:POINTS?;:BANDwidth:RESolution?;:INPut:GAIN:STATe?;:INPut:ATTenuation:AUTO?;:INPut:ATTenuation?;:SWEep:TIME?",
+    "TraceData": "INITiate:IMMediate;*WAI;:TRACe:DATA? TRACe1"
+  }
+},
+{
+  "time": "11/05/2021 11:19:39.572",
+  "identifier": "ThreadID2",
+  "message": {
+    "File": "C:/Users/Administrador/OneDrive - ANATEL/appColeta/Temp/appColeta_210511_T111936_ThreadID2.bin",
+    "StartUp": "*CLS;*RST;:FORMat:DATA REAL,32;:AVERage:TYPE LINear;:INITiate:CONTinuous OFF",
+    "MainSet": "DISPlay:WINDow:TRACe1:MODE WRIT;:SWEep:COUNt 1;:DETector1:FUNCtion POS;:UNIT:POWer DBM;:FREQuency:STARt 470000000;:FREQuency:STOP 698000000;:SWEep:POINTS 4561;:BANDwidth:RESolution 100000;:INPut:GAIN:STATe 1;:INPut:ATTenuation 0;:INPUT:ATTenuation:AUTO 1",
+    "MetaData": "DISPlay:WINDow:TRACe1:MODE?;:SWEep:COUNt?;:DETector1:FUNCtion?;:UNIT:POWer?;:FREQuency:STARt?;:FREQuency:STOP?;:SWEep:POINTS?;:BANDwidth:RESolution?;:INPut:GAIN:STATe?;:INPut:ATTenuation:AUTO?;:INPut:ATTenuation?;:SWEep:TIME?",
+    "TraceData": "INITiate:IMMediate;*WAI;:TRACe:DATA? TRACe1"
+  }
+},
+{
+  "time": "11/05/2021 11:19:39.664",
+  "identifier": "WritedSamples",
+  "message": "0 of 1500"
+},
+{
+  "time": "11/05/2021 11:32:02.115",
+  "identifier": "WritedSamples",
+  "message": "1500 of 1500"
+}
+]

@@ -1,0 +1,88 @@
+[
+{
+  "time": "12/05/2021 12:23:23.779",
+  "identifier": "Equipament",
+  "message": {
+    "Name": "Rohde&Schwarz,FSVR-30,1311.0006K30/101119,1.63",
+    "IP": "10.71.10.59",
+    "Port": 5025,
+    "Timeout": 5,
+    "InputBuffer": "10 MB"
+  }
+},
+{
+  "time": "12/05/2021 12:23:23.797",
+  "identifier": "TimeIssue",
+  "message": {
+    "DesiredObservationTime": 300,
+    "DesiredRevisitTime": [
+      0.2,
+      1
+    ],
+    "GlobalRevisitTime": 0.2,
+    "RevisitFactors": [
+      1,
+      5
+    ],
+    "EstimatedSamples": 1500
+  }
+},
+{
+  "time": "12/05/2021 12:23:24.766",
+  "identifier": "gpsInfo",
+  "message": {
+    "Type": 0,
+    "Status": -1,
+    "Latitude": -13,
+    "Longitude": -39.5
+  }
+},
+{
+  "time": "12/05/2021 12:23:24.787",
+  "identifier": "ThreadID1",
+  "message": {
+    "File": "C:/Users/Administrador/Downloads/appColeta_210512_T122322_ThreadID1.bin",
+    "StartUp": "*CLS;*RST;:FORMat:DATA REAL,32;:AVERage:TYPE LINear;:INITiate:CONTinuous OFF",
+    "MainSet": "DISPlay:WINDow:TRACe1:MODE AVER;:SWEep:COUNt 20;:DETector1:FUNCtion RMS;:UNIT:POWer DBUV;:FREQuency:STARt 88000000;:FREQuency:STOP 108000000;:SWEep:POINTS 1601;:BANDwidth:RESolution 30000;:INPut:GAIN:STATe 1;:INPut:ATTenuation 0;:INPUT:ATTenuation:AUTO 1",
+    "MetaData": "DISPlay:WINDow:TRACe1:MODE?;:SWEep:COUNt?;:DETector1:FUNCtion?;:UNIT:POWer?;:FREQuency:STARt?;:FREQuency:STOP?;:SWEep:POINTS?;:BANDwidth:RESolution?;:INPut:GAIN:STATe?;:INPut:ATTenuation:AUTO?;:INPut:ATTenuation?;:SWEep:TIME?",
+    "TraceData": "INITiate:IMMediate;*WAI;:TRACe:DATA? TRACe1"
+  }
+},
+{
+  "time": "12/05/2021 12:23:24.913",
+  "identifier": "ThreadID2",
+  "message": {
+    "File": "C:/Users/Administrador/Downloads/appColeta_210512_T122322_ThreadID2.bin",
+    "StartUp": "*CLS;*RST;:FORMat:DATA REAL,32;:AVERage:TYPE LINear;:INITiate:CONTinuous OFF",
+    "MainSet": "DISPlay:WINDow:TRACe1:MODE MAXH;:SWEep:COUNt 40;:DETector1:FUNCtion POS;:UNIT:POWer DBM;:FREQuency:STARt 470000000;:FREQuency:STOP 698000000;:SWEep:POINTS 4561;:BANDwidth:RESolution 100000;:INPut:GAIN:STATe 1;:INPut:ATTenuation 5;:INPUT:ATTenuation:AUTO 0",
+    "MetaData": "DISPlay:WINDow:TRACe1:MODE?;:SWEep:COUNt?;:DETector1:FUNCtion?;:UNIT:POWer?;:FREQuency:STARt?;:FREQuency:STOP?;:SWEep:POINTS?;:BANDwidth:RESolution?;:INPut:GAIN:STATe?;:INPut:ATTenuation:AUTO?;:INPut:ATTenuation?;:SWEep:TIME?",
+    "TraceData": "INITiate:IMMediate;*WAI;:TRACe:DATA? TRACe1"
+  }
+},
+{
+  "time": "12/05/2021 12:23:24.965",
+  "identifier": "WritedSamples",
+  "message": "0 of 1500"
+},
+{
+  "time": "12/05/2021 12:24:31.248",
+  "identifier": "Equipament",
+  "message": "Unsuccessful read: A timeout occurred before the Terminator was reached."
+},
+{
+  "time": "12/05/2021 12:24:54.474",
+  "identifier": "Equipament",
+  "message": {
+    "Name": "Rohde&Schwarz,FSVR-30,1311.0006K30/101119,1.63",
+    "IP": "10.71.10.59",
+    "Port": 5025,
+    "Timeout": 5,
+    "InputBuffer": "10 MB"
+  }
+},
+{
+  "time": "12/05/2021 12:38:54.753",
+  "identifier": "WritedSamples",
+  "message": "1500 of 1500"
+}
+]
