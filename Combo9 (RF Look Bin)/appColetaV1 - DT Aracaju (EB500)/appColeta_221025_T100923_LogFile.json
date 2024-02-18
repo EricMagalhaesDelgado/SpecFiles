@@ -1,0 +1,92 @@
+[
+{
+  "time": "25/10/2022 10:09:23.165",
+  "identifier": "Equipament",
+  "message": {
+    "Name": "ROHDE&SCHWARZ,EB500,101.514/002,V04.90-4072.8710.00",
+    "ConnectType": "TCP/UDP IP Socket",
+    "IP": "192.168.48.10",
+    "Port": 5555,
+    "Timeout": 10,
+    "ResetCommand": "On",
+    "SyncMode": "Streaming"
+  }
+},
+{
+  "time": "25/10/2022 10:09:23.182",
+  "identifier": "TimeIssue",
+  "message": {
+    "DesiredObservationTime": null,
+    "DesiredRevisitTime": [
+      1,
+      1
+    ],
+    "GlobalRevisitTime": 1,
+    "RevisitFactors": [
+      1,
+      1
+    ],
+    "EstimatedLoops": null
+  }
+},
+{
+  "time": "25/10/2022 10:09:23.302",
+  "identifier": "gpsInfo",
+  "message": {
+    "Type": 1,
+    "Status": 1,
+    "Latitude": -10.932374999999999,
+    "Longitude": -37.08229166666667
+  }
+},
+{
+  "time": "25/10/2022 10:09:25.656",
+  "identifier": "ThreadID1",
+  "message": {
+    "File": "C:/Users/Anatel/Documents/Medidas/appColeta_221025_T100923_ThreadID1_1.bin",
+    "Trigger": 1,
+    "StartUp": "*CLS;:SYST:COMM:LAN:PING 0;:TRAC:UDP:DELete ALL;:ROUTe:AUTO 0;:OUTPut:AUXMode AUTO;:MEASure:APPL RX;:FREQ:MODE PSCAN;:FUNCtion:CONCurrent OFF;:MEAS:MODE PER;:SYSTem:GPS:DATA:AUTO 1;:INITiate:IMMediate",
+    "MainSet": "CALCulate:IFPan:AVERage:TYPE OFF;:FREQuency:PSCan:START 76000000;:FREQuency:PSCan:STOP 108000000;:PSCan:STEP 25000;:CALCulate:IFPan:SELectivity Narrow;:INPut:ATTenuation:MODE NORM;:INPut:ATTenuation:AUTO 1",
+    "MetaDataQuery": "CALCulate:IFPan:AVERage:TYPE?;:FREQuency:PSCan:START?;:FREQuency:PSCan:STOP?;:PSCan:STEP?;:CALCulate:IFPan:BANDwidth?;:CALCulate:IFPan:SELectivity?;:INPut:ATTenuation:MODE?;:INPut:ATTenuation:AUTO?;:INPut:ATTenuation?",
+    "TraceDataQuery": "",
+    "MetaDataValues": "[{"Trace":"OFF","AverageMode":0,"AverageCount":1,"Detector":"FAST","LevelUnit":"DBUV","FreqStart":7.6E+7,"FreqStop":1.08E+8,"DataPoints":1281,"StepWidth":25000,"ResolutionMode":0,"ResolutionValue":30000,"Selectivity":"Narrow","SensitivityMode":"NORM","Preamp":0,"AttenuationMode":1,"AttenuationValue":0,"SampleTimeMode":1,"SampleTimeValue":0}]"
+  }
+},
+{
+  "time": "25/10/2022 10:09:25.820",
+  "identifier": "ThreadID2",
+  "message": {
+    "File": "C:/Users/Anatel/Documents/Medidas/appColeta_221025_T100923_ThreadID2_1.bin",
+    "Trigger": 1,
+    "StartUp": "*CLS;:SYST:COMM:LAN:PING 0;:TRAC:UDP:DELete ALL;:ROUTe:AUTO 0;:OUTPut:AUXMode AUTO;:MEASure:APPL RX;:FREQ:MODE PSCAN;:FUNCtion:CONCurrent OFF;:MEAS:MODE PER;:SYSTem:GPS:DATA:AUTO 1;:INITiate:IMMediate",
+    "MainSet": "CALCulate:IFPan:AVERage:TYPE OFF;:FREQuency:PSCan:START 108000000;:FREQuency:PSCan:STOP 137000000;:PSCan:STEP 5000;:CALCulate:IFPan:SELectivity Normal;:INPut:ATTenuation:MODE NORM;:INPut:ATTenuation:AUTO 1",
+    "MetaDataQuery": "CALCulate:IFPan:AVERage:TYPE?;:FREQuency:PSCan:START?;:FREQuency:PSCan:STOP?;:PSCan:STEP?;:CALCulate:IFPan:BANDwidth?;:CALCulate:IFPan:SELectivity?;:INPut:ATTenuation:MODE?;:INPut:ATTenuation:AUTO?;:INPut:ATTenuation?",
+    "TraceDataQuery": "",
+    "MetaDataValues": "[{"Trace":"OFF","AverageMode":0,"AverageCount":1,"Detector":"FAST","LevelUnit":"DBUV","FreqStart":1.08E+8,"FreqStop":1.37E+8,"DataPoints":5801,"StepWidth":5000,"ResolutionMode":0,"ResolutionValue":12000,"Selectivity":"Normal","SensitivityMode":"NORM","Preamp":0,"AttenuationMode":1,"AttenuationValue":0,"SampleTimeMode":1,"SampleTimeValue":0}]"
+  }
+},
+{
+  "time": "25/10/2022 10:09:25.976",
+  "identifier": "EstimatedLoops",
+  "message": "0 of Inf"
+},
+{
+  "time": "25/10/2022 12:06:22.951",
+  "identifier": "ThreadID1",
+  "message": {
+    "WritedSamples": 5176
+  }
+},
+{
+  "time": "25/10/2022 12:06:22.954",
+  "identifier": "ThreadID2",
+  "message": {
+    "WritedSamples": 5176
+  }
+},
+{
+  "time": "25/10/2022 12:06:22.958",
+  "identifier": "PerformedLoops",
+  "message": "5176 of Inf"
+}
+]
