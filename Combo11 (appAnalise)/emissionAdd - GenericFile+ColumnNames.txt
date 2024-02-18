@@ -1,0 +1,3 @@
+FreqCenter,BW,Description
+103.1,256,RÁDIO PIATÃ
+103.5,512,UMA COISA QUALQUER
