@@ -1,3 +1,3 @@
 FreqCenter,BW,Description
-103.1,256,RÁDIO PIATÃ
-103.5,512,UMA COISA QUALQUER
+94.3,256,Rádio Piatã FM
+103.9,512,Rádio A Tarde FM

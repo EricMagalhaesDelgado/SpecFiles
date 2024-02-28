@@ -1,0 +1,12 @@
+[
+  {
+    "FreqCenter": 90.1,
+    "BW": 256,
+    "Description": "Rádio GFM 90.1"
+  },
+  {
+    "FreqCenter": 107.5,
+    "BW": 256,
+    "Description": "Rádio Educadora FM"
+  }
+]
